@@ -1,0 +1,41 @@
+html {
+  background: #111;
+}
+
+body {
+  margin-top: 100px;
+  display: flex;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 20px 20px 50px 20px;
+  border: solid 5px whitesmoke;
+  border-radius: 10px;
+  text-align: center;
+  background-color: #444;
+}
+
+#output {
+  color: whitesmoke;
+  font-size: 100px;
+}
+
+button {
+  color: whitesmoke;
+  background-color: #111;
+  outline: none;
+  font-size: 80px;
+  width: 90px;
+  border-radius: 5px;
+}
+
+input {
+  font-size: 80px;
+  text-align: center;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: #333;
+}
