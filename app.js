@@ -10,13 +10,13 @@ let total = 0;
 //functions
 function addInput() {
   num = parseInt(input.value);
-  total = num + total;
+  if(num) total = num + total;
   update();
 }
 
 function subtractInput() {
   num = parseInt(input.value);
-  total = total - num;
+  if (num) total = total - num;
   update();
 }
 

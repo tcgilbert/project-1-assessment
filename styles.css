@@ -33,7 +33,9 @@ button {
 
 input {
   font-size: 80px;
+  width: 200px;
   text-align: center;
+  outline: none;
   padding-bottom: 7px;
 }
 
